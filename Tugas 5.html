@@ -49,3 +49,70 @@
 </html>
 
 
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  /* CSS untuk mengatur tampilan kotak formulir */
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #00a79d; /* Warna latar belakang hijau tosca */
+    color: white; /* Warna teks */
+    border-radius: 5px; /* Tampilan sudut kotak */
+  }
+
+  /* CSS untuk mengatur tampilan input dan tombol */
+  input[type="text"], input[type="email"], input[type="tel"], textarea, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: #333; /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    cursor: grab;
+  }
+
+  /* CSS untuk mengatur tampilan label */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+</style>
+</head>
+<body>
+
+<div class="form-container">
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="subject">Subject:</label>
+    <input type="text" id="subject" name="subject" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
+
+
+

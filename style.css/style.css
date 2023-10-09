@@ -55,3 +55,17 @@ h1 {
   .info-label, .contact-label {
     line-height: 100px; 
   }
+
+  h1 {
+    color: #00a79d; /* Warna teks hijau tosca */
+    text-align: center; /* Pusatkan teks */
+  }
+
+  /* CSS untuk mengatur tampilan elemen p */
+  p {
+    background-color: #00a79d; /* Warna latar belakang hijau tosca */
+    color: white; /* Warna teks putih */
+    text-align: center; /* Pusatkan teks */
+    padding: 10px; /* Jarak dari tepi elemen p */
+    margin: 0; /* Hapus margin bawaan */
+  }
