@@ -24,21 +24,13 @@ header {
     text-align: right;
     margin: 5;
 }
-
-<<<<<<< HEAD
 .right-align {
     text-align: right; 
   }
 
-=======
->>>>>>> f6d9fe39afb35ca8aba4bde4f2fd8c1bf04ec44e
 .about.png {
   width: 500px;
   display: flex;
   margin-top: -100px;
   margin-left: 150px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> f6d9fe39afb35ca8aba4bde4f2fd8c1bf04ec44e
