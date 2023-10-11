@@ -1,77 +1,93 @@
 .text {
   font-weight: 500;
 }
+
 .navi {
   margin-left: 100px;
-  margin-right: 70px;
-  margin-bottom: 140px;
+  margin-right: 80px;
+  margin-bottom: 150px;
 }
+
 .navi-1 {
-  margin-top: 20px;
+  margin-top: 30px;
 }
+
 .container {
   display: flex;
   flex-direction: row;
 }
+
 .bagan-1 {
   width: 500px;
-  margin-left: 25px;
+  margin-left: 30px;
 }
+
 .bagan-2 {
   margin-top: 100px;
   margin-bottom: 100px;
 }
+
 .bagan-3 {
   margin-top: 150px;
   margin-left: 0px;
-  padding-left: 100px;
+  padding-left: 150px;
 }
+
 .bagan-4 {
   margin-top: 50px;
   margin-left: 100px;
 }
+
 .bagan-5 {
-  margin-top: 45px;
+  margin-top: 50px;
   margin-left: 500px;
 }
+
 .container-bagan-3 {
   display: flex;
   flex-direction: column;
 }
+
 .text-1 {
   font-size: 50px;
 }
+
 .gambar-1 {
   width: 500px;
   display: flex;
-  margin-top: -180px;
+  margin-top: -175px;
   margin-left: 100px;
 }
+
 .gambar-2 {
   width: 500px;
   display: flex;
 }
+
 .h-empat {
   color: #979797;
 }
+
 .div-btn {
   display: flex;
   flex-direction: row;
   gap: 1rem;
 }
+
 .button1 {
   color: white;
   background-color: rgb(0, 255, 200);
   border-color: rgb(0, 255, 200);
   border-radius: 0px;
   width: 150px;
-  height: 40px;
+  height: 50px;
   text-align: center;
   font-size: 25px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .button0 {
   display: flex;
   justify-content: center;
@@ -85,6 +101,7 @@
   text-align: center;
   font-size: 25px;
 }
+
 .border1 {
   width: 500px;
 }
@@ -93,6 +110,7 @@ table tr th {
   padding-top: 10px;
   padding-bottom: 100px;
 }
+
 #colorstrip {
   margin-left: 35px;
   margin-top: 10px;
@@ -102,17 +120,20 @@ table tr th {
   border-color: rgb(0, 255, 200);
   background-color: rgb(0, 255, 200);
 }
+
 .text-table1 {
   color: #979797;
   margin-top: 20px;
   margin-left: -15px;
 }
+
 .div-service {
   display: flex;
   justify-content: space-between;
   padding: 5rem;
   padding-bottom: 0;
 }
+
 .grid1 {
   gap: 5rem;
 }
